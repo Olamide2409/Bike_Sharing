@@ -9,11 +9,6 @@ Visualization: Excel
 # Prepare Phase
 # Process Phase
 # Data Cleaning in R:
-
-# Analyze Phase
-# Share Phase
-# Act Phase
-
 # Bike_Sharing
 # Install required packages
 # tidyverse for data import and wrangling
@@ -26,7 +21,7 @@ library(lubridate)
 # Helps to import data
 library(readr)
 
-# Step 1: Collect the data, Upload Divvy datasets (csv files here)
+# Collect the data, Upload Divvy datasets (csv files here)
 q1_2018 <- read_csv(“Downloads/Divvy_Trips_2018_Q1.csv”) 
 q2_2018 <- read_csv(“Downloads/Divvy_Trips_2018_Q2.csv”)
 q3_2018 <- read_csv(“Downloads/Divvy_Trips_2018_Q3.csv”) 
@@ -115,6 +110,7 @@ all_2018tripsday_o f_w eek<-format(as.Date(all_2018 tripsdate), “%A”)
 # Data cleaning for the ride_length column to remove negative data
 all_2018trips_v2 <- all_2018trips[!(all_2018trips$ride_length<0),] View(all_2018trips_v2)
 
+# Analyze Phase:
 # CONDUCT DESCRIPTIVE ANALYSIS
 mean(all_2018trips_v2ride_l ength)
 median(all_2018 trips_v 2ride_length) 
@@ -173,4 +169,8 @@ write.csv(trips_month, file = “Downloads/trips_month.csv”)
 all_2018trips_v5 <- all_2018trips_v2 %>% group_by(month, usertype) %>% summarise(freq = n())
 View(all_2018trips_v5)
 write.csv(all_2018trips_v5, file = “Downloads/frequency_month.csv”)
+# Share Phase
+# Act Phase
+
+
 
