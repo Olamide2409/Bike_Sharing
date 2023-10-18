@@ -5,9 +5,9 @@ Data Cleaining: R
 Data analysis: R, Microsoft Excel
 Visualization: Excel
 # Data Analysis Process
-# Ask Phase
-# Prepare Phase
-# Process Phase
+# Ask Phase:
+# Prepare Phase:
+# Process Phase:
 # Data Cleaning in R:
 # Bike_Sharing
 # Install required packages
@@ -169,7 +169,10 @@ write.csv(trips_month, file = “Downloads/trips_month.csv”)
 all_2018trips_v5 <- all_2018trips_v2 %>% group_by(month, usertype) %>% summarise(freq = n())
 View(all_2018trips_v5)
 write.csv(all_2018trips_v5, file = “Downloads/frequency_month.csv”)
+
+
 # Share Phase
+
 # Act Phase
 
 
