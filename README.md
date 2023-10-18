@@ -1,3 +1,19 @@
+# Case Study 1: Transforming occasional(casual) cyclists into yearly subscribers(members).
+# Introduction
+# Tools used in analysis
+Data Cleaining: R
+Data analysis: R, Microsoft Excel
+Visualization: Excel
+# Data Analysis Process
+# Ask Phase
+# Prepare Phase
+# Process Phase
+# Data Cleaning in R:
+
+# Analyze Phase
+# Share Phase
+# Act Phase
+
 # Bike_Sharing
 # Install required packages
 # tidyverse for data import and wrangling
