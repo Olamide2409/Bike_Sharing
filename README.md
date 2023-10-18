@@ -3,7 +3,7 @@
 # Tools used in analysis
 Data Cleaining: R
 Data analysis: R, Microsoft Excel
-Visualization: Excel
+Visualization: Tableau
 # Data Analysis Process
 # Ask Phase:
 # Prepare Phase:
