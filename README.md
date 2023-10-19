@@ -1,5 +1,6 @@
 # Case Study 1: Transforming occasional(casual) cyclists into yearly subscribers(members).
 # Introduction
+This case study showcases a data analysis project undertaken within the framework of the Google Data Analytics Professional Certificate program. The project centers on Cyclistic, a bike-sharing company, and serves as the capstone project for the course. This case study will immerse you in the real-world tasks that a junior data analyst encounters. As an analyst in the marketing team working alongside different characters and team members. The aim is to tackle significant business questions by following the data analysis process, which includes stages such as asking, preparing, processing, analyzing, sharing, and taking action. 
 # Tools used in analysis
 Data Cleaining: R
 Data analysis: R, Microsoft Excel
