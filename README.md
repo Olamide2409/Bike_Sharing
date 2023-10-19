@@ -6,14 +6,24 @@ Data Cleaining: R
 Data analysis: R, Microsoft Excel
 Visualization: Tableau
 # Data Analysis Process
-# Ask Phase:
+# Ask Phase: 
+In the ask phase phase, it involved formulating clear and specific questions or objectives that would be addressed. This phase sets the foundation for the entire analysis and includes the following questions:
+How do annual members and casual riders use Cyclistic bikes differently? 
+This is further broken down into:
+1.  Average ride length (Seconds)
+2.  Frequency of Trips per month
+3.  Percentage of Trips per month
+4.  Total Trips Per day
+5.  Trip Duration per month
+
 # Prepare Phase:
+The dataset used for this case study is a public data set made available by Motivate International Inc. It contains quarterly data covering the year 2018 from the first quarter to the fourth quarter. They all contain 12 columns providing information related to the Bike rides.
 # Process Phase:
 # Data Cleaning in R:
-# Bike_Sharing
-# Install required packages
-# tidyverse for data import and wrangling
-# lubridate for visualization
+Bike_Sharing
+Install required packages
+tidyverse for data import and wrangling
+lubridate for visualization
 
 # Helps wrangle data
 library(tidyverse)
@@ -112,6 +122,7 @@ all_2018tripsday_o f_w eek<-format(as.Date(all_2018 tripsdate), “%A”)
 all_2018trips_v2 <- all_2018trips[!(all_2018trips$ride_length<0),] View(all_2018trips_v2)
 
 # Analyze Phase:
+We dig deep into the data to discover patterns and address the key findings on how annual members and casual riders use Cyclistic bikes differently. To point out the findings, the analyses were performed in R Studio. 
 # CONDUCT DESCRIPTIVE ANALYSIS
 mean(all_2018trips_v2ride_l ength)
 median(all_2018 trips_v 2ride_length) 
@@ -171,8 +182,7 @@ all_2018trips_v5 <- all_2018trips_v2 %>% group_by(month, usertype) %>% summarise
 View(all_2018trips_v5)
 write.csv(all_2018trips_v5, file = “Downloads/frequency_month.csv”)
 
-
-# Share Phase
+# Share Phase:
 
 # Act Phase
 
