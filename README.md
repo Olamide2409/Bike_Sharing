@@ -12,9 +12,8 @@ How do annual members and casual riders use Cyclistic bikes differently?
 This is further broken down into:
 1.  Average ride length (Seconds)
 2.  Frequency of Trips per month
-3.  Percentage of Trips per month
-4.  Total Trips Per day
-5.  Trip Duration per month
+3.  Total Trips Per day
+4.  Trip Duration per month(Seconds)
 
 # Prepare Phase:
 The dataset used for this case study is a public data set made available by Motivate International Inc. It contains quarterly data covering the year 2018 from the first quarter to the fourth quarter. They all contain 12 columns providing information related to the Bike rides.
