@@ -182,8 +182,42 @@ View(all_2018trips_v5)
 write.csv(all_2018trips_v5, file = “Downloads/frequency_month.csv”)
 
 # Share Phase:
+# Number of Trips per Day
+During the weekdays between Monday through Friday, Member riders had the highest number of trips per day with the highest day been Wednesday while Casual riders had their highest number of trips during the weekend.
+![Number of Trips per Day](https://github.com/Olamide2409/Bike_Sharing/assets/147916748/ce75b8ee-62cc-4ff7-b3e1-23a8f3427f6a)
 
-# Act Phase
+# Frequency of Trips per Month
+Over the Summer, the frequency of the trips got to the highest level. Casual riders got to the highest level in July while Member riders got to the highest level in August.
+![Frequency of Trips per Month](https://github.com/Olamide2409/Bike_Sharing/assets/147916748/1851f062-3790-44e6-9917-f5811ec93cf5)
+
+#Trip Duration per Month
+In January/February the trip duration was highest for casual riders while for member riders it was the highest between June through to September. The casual riders spend longer times in between rides than the member riders.
+![Trips Duration per Month](https://github.com/Olamide2409/Bike_Sharing/assets/147916748/f9d99cf1-3bd4-42c7-8d8c-c237d6a2d2b6)
+
+# Average Trip Duration per Day (Seconds)
+The casual riders spend more timehave its highest period on Sunday and this is similar to the member riders. On average, casual riders experience notably lengthier ride durations in comparison to riders who are members.
+![Average Trips Duration per Month](https://github.com/Olamide2409/Bike_Sharing/assets/147916748/b125b40c-af70-4eee-8dd0-0dc639a952b1)
+
+# Act Phase: Findings
+Differences between Casual and Member Riders:
+1. In comparison to casual riders, member riders have completed more trips an average six times more often throughout the week than they have during the weekends.
+   The weekend happpens to be when casual riders made the most journeys, with Sunday recording the longest duration for a day. 
+2. The frequency of trips peaked over the summer. While Member riders peaked in August, Casual riders peaked in July. Despite the fact that they both reached their minimal values in February
+3. The trip time was longest for casual riders in January/February, whereas it was longest for member riders during the summer (June-September). Compared to member rides, casual riders have significantly longer ride durations.
+4. Similar to its member riders, the casual riders' peak activity of bike riding occurs during the weekend, with Sunday being the peak day. Comparing casual riders and member riders, the casual riders use their bikes an average of four times per day.
+
+# Strategies to Convert Casual Riders to Member Riders:
+**Free Trial Period:** Offer a free trial period for potential subscribers. Allow them to experience the benefits of a subscription for a limited time before committing, so they can see its value.
+**Easy Sign-up Process:** Simplify the subscription sign-up process, making it quick and hassle-free. A complex sign-up can deter potential subscribers.
+**Subscription Plans:** Create tiered subscription plans that offer various levels of benefits, such as unlimited bike usage, premium maintenance, or exclusive discounts. This gives customers options that cater to their needs and encourages them to subscribe. Customers are encouraged to commit for a longer period by offering significant discounts for annual subscriptions. This reduces the perceived cost of subscribing.
+**Referral Programs/Loyalty Programs:** Implement a referral program where current subscribers can earn rewards or discounts by referring new subscribers. This leverages the existing subscriber base to bring in new customers. Reward frequent customers with loyalty points or benefits, and then introduce subscription offers with exclusive perks that can be redeemed using these points.
+**Exclusive Content and Events:** Offer exclusive content or access to special biking events for subscribers. This can create a sense of belonging and community among subscribers.
+Educational Content: Share content that educates customers on the long-term benefits of subscribing, such as cost savings, convenience, and the positive impact on their biking experience.
+**Feedback and Improvement:** Actively seek feedback from customers to continuously improve subscription offerings. This shows that you value their input and are committed to enhancing their experience.
+**Email Marketing:** Use targeted email marketing to inform customers about subscription options and benefits. Regularly update them about new features and promotions.
+**Partnerships:** Collaborate with other local businesses or services that align with biking, and offer joint subscription deals. For example, partner with a local gym for fitness-oriented subscriptions.
+**Community Engagement:** Foster a biking community through social media groups or forums and use these platforms to engage potential subscribers and promote the benefits of membership.
+ 
 
 
 
